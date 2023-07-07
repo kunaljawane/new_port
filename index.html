@@ -2,6 +2,7 @@
 <html lang="en">
    <head>
       <title>Kunal Jawane | Porfolio</title>
+      <link rel="icon" type="image/png" href="logo.png"/>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,6 +11,8 @@
       <meta name="author" content="Bucky Maler" />
       <link rel="stylesheet" href="assets/css/main.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    </head>
    <body>
       <!-- notification for small viewports and landscape oriented smartphones -->
@@ -30,7 +33,7 @@
                <div class="l-wrapper">
                   <header class="header">
                      <a class="header--logo" href="#0">
-                        <img src="assets/img/logo.png" alt="Global" />
+                        <img src="logo.png" style="height: 50px; width: 50px; margin-right: -20px;" alt="Global" />
                         <p>Kunal Jawane</p>
                      </a>
                      <!-- <button class="header--cta cta">Hire Us</button> -->
@@ -53,40 +56,66 @@
                      <li class="l-section section section--is-active">
                         <div class="intro">
                            <div class="intro--banner">
-                              <h1 style="margin-top: 100px;">Hello,<br>This is Kunal<br></h1>
-                              <h2>A Web developer, Coder, Graphic Designer, Volleyball Player,
+                              <div class="content">
+                                 <h1 class="typed" style="margin-top: 100px;">Hello,<br>This is Kunal</br></h1>
+                              </div>
+                              <!-- <h2>A Web developer, Coder, Graphic Designer, Volleyball Player,
                                  <br> Vice-chair ACM Student Chapter<br>Student At I2IT
-                              </h2>
+                                 </h2> -->
+                              <div class="changing-text">
+                                 <div class="row-outer">
+                                    <!-- <div class="container"> -->
+                                    <div class="animated-heading">
+                                       <h2>I Am a <span id="words" style="color: #0A66C2;">Coder</span></h2>
+                                       <!-- </div> -->
+                                    </div>
+                                 </div>
+                                 <script type="text/javascript">
+                                    (function () {
+                                      var words = ["Full Stack Developer","Graphic Designer","Photographer","Leader","Happy Person","Volleyball Player","Student At I2IT Pune" ],
+                                      i = 0;
+                                      setInterval(function(){ $('#words').fadeOut(function(){
+                                          $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+                                        }); }, 1700)
+                                    })();
+                                 </script>
+                              </div>
                               <!-- <img
                                  src="assets/img/introduction-visual.png"
                                  alt="Welcome"
                                  /> -->
                            </div>
                            <div class="intro--options">
-                              <a href="#0">
-                                 <h3><i class="fa fa-linkedin-square" style="font-size:40px"></i>Explore LinkedIn</h3>
-                                 <!-- <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    sed do.
-                                    </p> -->
-                              </a>
-                              <a href="#0">
-                                 <h3><i class="fa fa-github-square" style="font-size:40px"></i>Explore GitHub</h3>
-                                 <!-- <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    sed do.
-                                    </p> -->
-                              </a>
-                              <a href="#0">
-                                 <h3>
-                                    <h3><i class="fa fa-envelope-square" style="font-size:40px"></i>Write Mail</h3>
+                              <a href="https://www.linkedin.com/in/kunal-jawane-2819b3217">
+                                 <h3><i class="fa fa-linkedin-square" style="font-size:40px"></i>
+                                    LinkedIn
                                  </h3>
                                  <!-- <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit
                                     sed do.
                                     </p> -->
                               </a>
-                              <a href="#0">
+                              <a  href="https://github.com/kunaljawane">
+                                 <h3><i class="fa fa-github-square" style="font-size:40px"></i>
+                                    GitHub
+                                 </h3>
+                                 <!-- <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                    sed do.
+                                    </p> -->
+                              </a>
+                              <a  href="mailto:kunaljawane@gmail.com">
+                                 <h3>
+                                    <h3><i class="fa fa-envelope-square" style="font-size:40px"></i>
+                                       Mail Me
+                                    </h3>
+                                 </h3>
+                                 <!-- <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                    sed do.
+                                    </p> -->
+                              </a>
+                              <a  href="https://drive.google.com/file/d/1alh5M_139LqJg3cDF86xD8KM4KfTlOmx/view?usp=sharing">
                                  <h3><i class="fa fa-file" style="font-size:36px;"></i>
                                     Resume
                                  </h3>
@@ -101,17 +130,17 @@
                      <li class="l-section section">
                         <div class="about">
                            <div style="margin-top: 100px;" class="about--banner">
-                              Hi, I'm Kunal Jawane👋<br>a passionate student pursuing Computer Engineering at I2IT Pune. 💻<br><br>
-
-I specialize in web development, with expertise in React.js and graphic design using tools like Canva. 🌐🖌️<br><br>
-
-Proficient in Java, C++, Python, JavaScript, HTML, CSS, and SQL, I have experience working with frameworks like React.js and libraries like Pandas and Numpy.<br><br>
-
-I have developed websites for Tikona Farms and created a comprehensive portfolio showcasing my skills. I also built a website called Home-Helper for hiring services.<br><br>
-
-In leadership roles, such as Vice-chair of the I2IT ACM Student Chapter, I managed the chapter and represented my college at global summits. I also won the Artisan 2022 Graphic Designing competition. 🏆<br><br>
-
-I'm driven, constantly learning, and open to new opportunities. Let's connect and create something incredible together! 🚀<br><br>
+                              <div class="floating-text">
+                                 <div class="content">
+                                    <p class="typed">Hi, I'm Kunal👋</p>
+                                 </div>
+                              </div>
+                              <br>a passionate student pursuing Computer Engineering at I2IT Pune. 💻<br><br>
+                              I specialize in web development, with expertise in React.js and graphic design using tools like Canva. 🌐🖌️<br><br>
+                              Proficient in Java, C++, Python, JavaScript, HTML, CSS, and SQL, I have experience working with frameworks like React.js and libraries like Pandas and Numpy.<br><br>
+                              I have developed websites for Tikona Farms and created a comprehensive portfolio showcasing my skills. I also built a website called Home-Helper for hiring services.<br><br>
+                              In leadership roles, such as Vice-chair of the I2IT ACM Student Chapter, I managed the chapter and represented my college at global summits. I also won the Artisan 2022 Graphic Designing competition. 🏆<br><br>
+                              I'm driven, constantly learning, and open to new opportunities. Let's connect and create something incredible together! 🚀<br><br>
                               <!-- <span>
                                  <svg
                                     version="1.1"
@@ -156,14 +185,12 @@ I'm driven, constantly learning, and open to new opportunities. Let's connect an
                               👩‍💻 React.JS Developer, Digital Marketing Intern at Tikona Farms <br>
                               •Developed the website for Tikona Farms using React.JS and handled social media accounts 🌐📱<br>
                               •Tikona Farms May-June '23<br><br>
-
                               🎨 Graphic Design Intern<br>
-•Efficiently incorporated basic graphic design skills, utilizing tools such as Canva, and proficient in simple photo editing techniques 🖌️📸<br>
-•Oasis Infobytes Jan '23<br><br>
-
-💻 Web Development Intern<br>
-•Successfully executed fundamental tasks leveraging foundational web development skills 🌐<br>
-•Oasis Infobytes Dec '22<br>
+                              •Efficiently incorporated basic graphic design skills, utilizing tools such as Canva, and proficient in simple photo editing techniques 🖌️📸<br>
+                              •Oasis Infobytes Jan '23<br><br>
+                              💻 Web Development Intern<br>
+                              •Successfully executed fundamental tasks leveraging foundational web development skills 🌐<br>
+                              •Oasis Infobytes Dec '22<br>
                               <!-- <span>
                                  <svg
                                     version="1.1"
@@ -390,8 +417,15 @@ I'm driven, constantly learning, and open to new opportunities. Let's connect an
                      <li class="l-section section">
                         <div class="hire">
                            <h2>My Skill set Include</h2>
+                           Languages: Java, C++, Python,JavaScript,HTML,CSS, SQL<br><br>
+                           Framework: React.js, Node.js, Express.js, Bootsrap, MaterialUI<br><br>
+                           Libraries: Pandas, Numpy, Seaborn<br><br>
+                           Databases: MongoDB, MySQL<br><br>
+                           Cloud: Google cloud<br><br>
+                           others: Graphic Desiging<br><br>
+                           Soft Skills: Leadership, Hardworking , Creativity, Time Management, Professionalism<br>
                            <!-- checkout formspree.io for easy form setup -->
-                           <form class="work-request">
+                           <!-- <form class="work-request">
                               <div class="work-request--options">
                                  <span class="options-a">
                                     <input id="opt-1" type="checkbox" value="app design" />
@@ -503,12 +537,12 @@ I'm driven, constantly learning, and open to new opportunities. Let's connect an
                                        </svg>
                                        Soft Skills<br>
                                        Leadership, Hardworking , Creativity, Time Management, Professionalism,
-
+                              
                                     </label>
                                     
                                  </span>
                               </div>
-                           </form>
+                              </form> -->
                         </div>
                      </li>
                      <li class="l-section section">
